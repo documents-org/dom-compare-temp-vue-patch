@@ -36,4 +36,8 @@ patch(domCompare);
 const desire = require('./util/desire');
 ```
 
+## Method
+
+Since the code of `dom-compare-temp/compare` resides in an IIFE we're duplicating it here to be able to replace it. 
+
 Crashes are then "resolved".
